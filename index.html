@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidharth J | Electrical & Electronics Engineer | Portfolio</title>
+    <meta name="description" content="Portfolio of Sidharth J - Final-Year Electrical & Electronics Engineering Student specializing in Microcontroller-based Automation, PCB Design, MATLAB/Simulink, and Green Energy Systems.">
+    <meta name="keywords" content="Sidharth J, Electrical Engineer, Embedded Systems, PCB Design, Arduino, Microcontrollers, Green Hydrogen, Coimbatore, VSB College of Engineering">
+    <meta name="author" content="Sidharth J">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
+                <span class="logo-text">SIDHARTH<span class="logo-accent">.J</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#publication" class="nav-link">Publication</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle Light/Dark Theme">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+                <a href="#contact" class="btn btn-outline btn-nav-cta">Hire Me</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="circuit-bg-overlay"></div>
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span> Available for Engineering Roles (2026 Batch)
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Sidharth J</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span id="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-description">
+                        Final-Year Electrical & Electronics Engineering student driven by innovation in 
+                        <strong>microcontroller automation</strong>, <strong>PCB circuit design</strong>, and <strong>smart renewable energy systems</strong>.
+                    </p>
+
+                    <div class="hero-location">
+                        <i class="fa-solid fa-location-dot"></i> Coimbatore, Tamil Nadu, India
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="assets/resume.pdf" download="Sidharth_J_Resume.pdf" class="btn btn-primary btn-glow">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <button class="btn btn-secondary" id="open-resume-btn">
+                            <i class="fa-solid fa-eye"></i> View Resume
+                        </button>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/sidharth478" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sidharth-j-301b8238a" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:sidsidharth1234@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919047297509" class="social-icon" aria-label="Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="profile-ring-outer"></div>
+                    <div class="profile-ring-inner"></div>
+                    <div class="profile-card">
+                        <img src="assets/profile.jpg" alt="Sidharth J Professional Headshot" class="profile-img">
+                        <div class="floating-badge badge-1">
+                            <i class="fa-solid fa-solar-panel"></i>
+                            <div>
+                                <span class="badge-number">+35%</span>
+                                <span class="badge-label">Solar Efficiency</span>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <i class="fa-solid fa-microchip"></i>
+                            <div>
+                                <span class="badge-number">Embedded & PCB</span>
+                                <span class="badge-label">Hardware Logic</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Counter Ribbon -->
+        <section class="stats-ribbon">
+            <div class="container stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">7.59</span>
+                        <span class="stat-label">B.E. CGPA (VSB College)</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">35%</span>
+                        <span class="stat-label">Energy Efficiency Boost</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-file-powerpoint"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">IEEE</span>
+                        <span class="stat-label">Published Conference Author</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-industry"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">2+</span>
+                        <span class="stat-label">Engineering Internships</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-container">
+                        <div class="about-image-card">
+                            <img src="assets/profile.jpg" alt="Sidharth J" class="about-img">
+                            <div class="about-experience-badge">
+                                <span class="exp-title">EEE Engineer</span>
+                                <span class="exp-subtitle">Class of 2026</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text-content">
+                        <h3 class="about-lead">
+                            Passionate Electrical & Electronics Engineer specializing in Smart Systems, Embedded Firmware, and PCB Design.
+                        </h3>
+                        <p class="about-body">
+                            Final-year Electrical and Electronics Engineering student with proven expertise in microcontroller-based automation and PCB design. Delivered automated solar-tracking and street-lighting systems, achieving up to 35% higher energy efficiency and 30% lower energy consumption.
+                        </p>
+                        <p class="about-body">
+                            Proficient in circuit design, MATLAB/Simulink, and PCB layout, with research published at an IEEE conference on green hydrogen production. Equipped to deliver high-impact electrical engineering solutions from day one.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h4>Microcontroller Automation</h4>
+                                    <p>Arduino, ARM platforms, Embedded C logic, sensor feedback calibration.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h4>PCB Schematic & Layout Routing</h4>
+                                    <p>KiCad, Proteus, hardware validation, component routing & fabrication standards.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h4>Renewable Energy & Power Systems</h4>
+                                    <p>Solar tracking, green hydrogen production research, power electronics & control systems.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-quick-info">
+                            <div class="info-pill"><i class="fa-solid fa-graduation-cap"></i> B.E. EEE (2022–2026)</div>
+                            <div class="info-pill"><i class="fa-solid fa-location-dot"></i> Coimbatore, TN</div>
+                            <div class="info-pill"><i class="fa-solid fa-language"></i> Tamil & English</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic Journey</span>
+                    <h2 class="section-title">Education Background</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- B.E. EEE -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-content card-hover">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2022 – 2026</span>
+                                <span class="score-badge primary">CGPA: 7.59</span>
+                            </div>
+                            <h3 class="degree-title">B.E. in Electrical & Electronics Engineering</h3>
+                            <h4 class="institution-name">VSB College of Engineering, Coimbatore</h4>
+                            <p class="timeline-description">
+                                Specialized in Power Electronics, Embedded Systems, Microcontrollers, Automation, and Green Energy Systems. Active developer in hardware prototyping and circuit simulation.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tag">Power Electronics</span>
+                                <span class="tag">Control Systems</span>
+                                <span class="tag">MATLAB/Simulink</span>
+                                <span class="tag">Embedded C</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Diploma EEE -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="timeline-content card-hover">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2020 – 2023</span>
+                                <span class="score-badge accent">Percentage: 74.8%</span>
+                            </div>
+                            <h3 class="degree-title">Diploma in Electrical & Electronics Engineering</h3>
+                            <h4 class="institution-name">Sree Narayana Guru Polytechnic College</h4>
+                            <p class="timeline-description">
+                                Gained practical foundation in circuit analysis, network theory, electrical machines, basic electronics, and hands-on laboratory testing.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tag">Circuit Theory</span>
+                                <span class="tag">Electrical Machines</span>
+                                <span class="tag">PCB Fundamentals</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SSLC -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-content card-hover">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2020</span>
+                                <span class="score-badge">Percentage: 63.8%</span>
+                            </div>
+                            <h3 class="degree-title">SSLC (Secondary School Leaving Certificate)</h3>
+                            <h4 class="institution-name">Sri P. Mallaiyan Matriculation Hr. Sec. School</h4>
+                            <p class="timeline-description">
+                                Completed secondary education with strong analytical and science fundamentals, laying down the path for engineering studies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Engineering Innovations</span>
+                    <h2 class="section-title">Key Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card card-hover">
+                        <div class="project-banner">
+                            <div class="project-icon-box">
+                                <i class="fa-solid fa-sun-plant-wilt"></i>
+                            </div>
+                            <span class="project-category">Smart Systems & Automation</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Dual-Axis Solar Tracking System</h3>
+                            <p class="project-tagline">Microcontroller-driven continuous solar alignment for maximum energy capture.</p>
+
+                            <div class="project-impact-box">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span><strong>~35% Higher Energy Efficiency</strong> achieved compared to static solar panels.</span>
+                            </div>
+
+                            <ul class="project-points">
+                                <li>Engineered a dual-axis solar tracking system using Arduino Nano, LDR sensors, and servo motors.</li>
+                                <li>Implemented microcontroller-based servo control logic with real-time sensor feedback for continuous automated panel alignment.</li>
+                                <li>Led hardware and circuit assembly, coordinating with 2 teammates on integration, testing, and troubleshooting to deliver a working prototype in 2 weeks.</li>
+                            </ul>
+
+                            <div class="project-tech-stack">
+                                <span class="tech-pill"><i class="fa-solid fa-code"></i> Embedded C</span>
+                                <span class="tech-pill"><i class="fa-solid fa-microchip"></i> Arduino Nano</span>
+                                <span class="tech-pill"><i class="fa-solid fa-gear"></i> Servo Motors</span>
+                                <span class="tech-pill"><i class="fa-solid fa-lightbulb"></i> LDR Sensors</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card card-hover">
+                        <div class="project-banner accent-banner">
+                            <div class="project-icon-box">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <span class="project-category">Arduino-Based Automation</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Solar Street Light System</h3>
+                            <p class="project-tagline">Automated day/night ambient lighting control using high-efficiency MOSFET switching.</p>
+
+                            <div class="project-impact-box accent-impact">
+                                <i class="fa-solid fa-leaf"></i>
+                                <span><strong>~30% Reduction in Energy Consumption</strong> with 100% automated switching control.</span>
+                            </div>
+
+                            <ul class="project-points">
+                                <li>Designed and programmed an automatic solar street lighting system using LDR sensors and MOSFET switching logic.</li>
+                                <li>Applied microcontroller programming principles to achieve 100% automated switching control and real-time light detection, eliminating manual operation.</li>
+                                <li>Tested system performance under varying ambient light conditions to ensure reliable day/night switching accuracy.</li>
+                            </ul>
+
+                            <div class="project-tech-stack">
+                                <span class="tech-pill"><i class="fa-solid fa-code"></i> Embedded C</span>
+                                <span class="tech-pill"><i class="fa-solid fa-microchip"></i> Arduino</span>
+                                <span class="tech-pill"><i class="fa-solid fa-lightbulb"></i> LDR Sensors</span>
+                                <span class="tech-pill"><i class="fa-solid fa-wave-square"></i> MOSFETs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Experience Section -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Hands-On Industry Roles</span>
+                    <h2 class="section-title">Internship Experience</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="experience-timeline">
+                    <!-- Internship 1 -->
+                    <div class="exp-card card-hover">
+                        <div class="exp-header">
+                            <div class="exp-role-meta">
+                                <div class="exp-company-logo">
+                                    <i class="fa-solid fa-microchip"></i>
+                                </div>
+                                <div>
+                                    <h3 class="exp-role">Embedded Systems Intern</h3>
+                                    <h4 class="exp-company">Study Shinee Software Solution</h4>
+                                </div>
+                            </div>
+                            <div class="exp-period">
+                                <i class="fa-regular fa-calendar-days"></i> Dec 2025 – Jan 2026
+                            </div>
+                        </div>
+
+                        <ul class="exp-details">
+                            <li>Developed 4+ microcontroller-based modules for firmware programming and sensor integration, enabling accurate real-time data acquisition for IoT prototypes.</li>
+                            <li>Built hardware-software integration across 4+ IoT-based prototypes using C on ARM-based platforms.</li>
+                            <li>Applied 2 communication protocols (UART, I2C) in firmware development, ensuring reliable, low-latency sensor-to-microcontroller data transfer.</li>
+                        </ul>
+
+                        <div class="exp-tags">
+                            <span class="tag">Embedded C</span>
+                            <span class="tag">ARM Architecture</span>
+                            <span class="tag">UART Protocol</span>
+                            <span class="tag">I2C Protocol</span>
+                            <span class="tag">IoT Prototypes</span>
+                            <span class="tag">Sensor Firmware</span>
+                        </div>
+                    </div>
+
+                    <!-- Internship 2 -->
+                    <div class="exp-card card-hover">
+                        <div class="exp-header">
+                            <div class="exp-role-meta">
+                                <div class="exp-company-logo accent-logo">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                </div>
+                                <div>
+                                    <h3 class="exp-role">PCB Design Training Intern</h3>
+                                    <h4 class="exp-company">A.D. Engineering Solution</h4>
+                                </div>
+                            </div>
+                            <div class="exp-period">
+                                <i class="fa-regular fa-calendar-days"></i> June 2023
+                            </div>
+                        </div>
+
+                        <ul class="exp-details">
+                            <li>Designed and reviewed 4+ PCB layouts, performing component routing, schematic design, and circuit validation for microcontroller-based hardware prototypes.</li>
+                            <li>Applied PCB fabrication standards and design rules, reducing layout errors and improving manufacturability of hardware prototypes.</li>
+                        </ul>
+
+                        <div class="exp-tags">
+                            <span class="tag">PCB Layout</span>
+                            <span class="tag">Component Routing</span>
+                            <span class="tag">Schematic Design</span>
+                            <span class="tag">Circuit Validation</span>
+                            <span class="tag">DFM / Fabrication Standards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Competencies</span>
+                    <h2 class="section-title">Skills & Proficiencies</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Skill Filter Tabs -->
+                <div class="skills-filter">
+                    <button class="filter-btn active" data-filter="all">All Skills</button>
+                    <button class="filter-btn" data-filter="circuit">Circuit & PCB</button>
+                    <button class="filter-btn" data-filter="software">Engineering Software</button>
+                    <button class="filter-btn" data-filter="firmware">Programming & Firmware</button>
+                    <button class="filter-btn" data-filter="hardware">Hardware & Components</button>
+                    <button class="filter-btn" data-filter="core">Core Concepts</button>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Electrical & Circuit Design -->
+                    <div class="skill-category-card card-hover" data-category="circuit">
+                        <div class="category-header">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <h3>Electrical & Circuit Design</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-wave-square"></i> Circuit Analysis</span>
+                            <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> Network Theory</span>
+                            <span class="skill-pill"><i class="fa-solid fa-microchip"></i> PCB Design</span>
+                            <span class="skill-pill"><i class="fa-solid fa-route"></i> Circuit Layout</span>
+                            <span class="skill-pill"><i class="fa-solid fa-sliders"></i> Component Routing</span>
+                            <span class="skill-pill"><i class="fa-solid fa-pen-ruler"></i> Schematic Design</span>
+                        </div>
+                    </div>
+
+                    <!-- Engineering Software -->
+                    <div class="skill-category-card card-hover" data-category="software">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Engineering Software</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-chart-area"></i> MATLAB / Simulink</span>
+                            <span class="skill-pill"><i class="fa-solid fa-drafting-compass"></i> AutoCAD Electrical</span>
+                            <span class="skill-pill"><i class="fa-solid fa-sim-card"></i> Proteus Design Suite</span>
+                            <span class="skill-pill"><i class="fa-solid fa-code"></i> Arduino IDE</span>
+                            <span class="skill-pill"><i class="fa-solid fa-layer-group"></i> KiCad EDA</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming & Firmware -->
+                    <div class="skill-category-card card-hover" data-category="firmware">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming & Firmware</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-c"></i> C Language</span>
+                            <span class="skill-pill"><i class="fa-solid fa-terminal"></i> Embedded C</span>
+                            <span class="skill-pill"><i class="fa-solid fa-microchip"></i> Arduino C++</span>
+                            <span class="skill-pill"><i class="fa-solid fa-arrows-left-right"></i> UART & I2C Protocols</span>
+                        </div>
+                    </div>
+
+                    <!-- Hardware & Components -->
+                    <div class="skill-category-card card-hover" data-category="hardware">
+                        <div class="category-header">
+                            <i class="fa-solid fa-plug"></i>
+                            <h3>Hardware & Components</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-sun"></i> LDR Sensors</span>
+                            <span class="skill-pill"><i class="fa-solid fa-rotate"></i> Servo Motors</span>
+                            <span class="skill-pill"><i class="fa-solid fa-bolt"></i> Power MOSFETs</span>
+                            <span class="skill-pill"><i class="fa-solid fa-microchip"></i> Arduino Nano / UNO</span>
+                            <span class="skill-pill"><i class="fa-solid fa-server"></i> ARM Microcontrollers</span>
+                        </div>
+                    </div>
+
+                    <!-- Core Electrical Concepts -->
+                    <div class="skill-category-card card-hover full-width-card" data-category="core">
+                        <div class="category-header">
+                            <i class="fa-solid fa-atom"></i>
+                            <h3>Core Electrical Concepts</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-car-battery"></i> Power Electronics</span>
+                            <span class="skill-pill"><i class="fa-solid fa-gauge-high"></i> Control Systems</span>
+                            <span class="skill-pill"><i class="fa-solid fa-solar-panel"></i> Renewable Energy Systems</span>
+                            <span class="skill-pill"><i class="fa-solid fa-robot"></i> Automation & Robotics</span>
+                            <span class="skill-pill"><i class="fa-solid fa-leaf"></i> Energy Efficiency Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IEEE Publication Section -->
+        <section class="section publication-section" id="publication">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Research & Authorship</span>
+                    <h2 class="section-title">IEEE Conference Publication</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="publication-card card-hover">
+                    <div class="pub-badge-ribbon">
+                        <i class="fa-solid fa-award"></i> IEEE Conference 2025
+                    </div>
+
+                    <div class="pub-content">
+                        <div class="pub-header">
+                            <div class="pub-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                            <div>
+                                <h3 class="pub-title">THERMO-LYTIC: Multi-Source Hybrid for Green Hydrogen Production</h3>
+                                <div class="pub-meta">
+                                    <span><i class="fa-regular fa-user"></i> Authored & Presented by <strong>Sidharth J</strong></span>
+                                    <span><i class="fa-regular fa-calendar"></i> Year: 2025</span>
+                                    <span><i class="fa-solid fa-certificate"></i> IEEE Proceedings</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="pub-abstract">
+                            Authored and presented a peer-reviewed research paper detailing an innovative multi-source hybrid thermodynamic-electrolytic model for green hydrogen production. The research explores hybrid renewable energy integration, high-efficiency thermolysis, and optimal energy conversion matrices.
+                        </p>
+
+                        <div class="pub-topics">
+                            <span class="topic-tag"><i class="fa-solid fa-leaf"></i> Green Hydrogen</span>
+                            <span class="topic-tag"><i class="fa-solid fa-solar-panel"></i> Hybrid Renewable Energy</span>
+                            <span class="topic-tag"><i class="fa-solid fa-fire-flame-simple"></i> Thermolysis</span>
+                            <span class="topic-tag"><i class="fa-solid fa-bolt"></i> Energy Conversion Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications, Areas of Interest & Languages Section -->
+        <section class="section extras-section" id="extras">
+            <div class="container">
+                <div class="extras-grid">
+                    <!-- Certifications -->
+                    <div class="extra-card card-hover">
+                        <div class="card-icon-header">
+                            <i class="fa-solid fa-certificate"></i>
+                            <h3>Certifications</h3>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                            <div>
+                                <h4>NPTEL Certification — Internet of Things (IoT)</h4>
+                                <p class="cert-issuer">IIT Kharagpur</p>
+                                <span class="cert-pill">Verified Credential</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Areas of Interest -->
+                    <div class="extra-card card-hover">
+                        <div class="card-icon-header">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <h3>Areas of Interest</h3>
+                        </div>
+                        <div class="chips-container">
+                            <span class="interest-chip"><i class="fa-solid fa-car-battery"></i> Power Electronics</span>
+                            <span class="interest-chip"><i class="fa-solid fa-microchip"></i> Microcontrollers & IoT</span>
+                            <span class="interest-chip"><i class="fa-solid fa-diagram-project"></i> Circuit Analysis & Network Theory</span>
+                            <span class="interest-chip"><i class="fa-solid fa-layer-group"></i> PCB Design & Hardware</span>
+                            <span class="interest-chip"><i class="fa-solid fa-gears"></i> Automation & Control Systems</span>
+                            <span class="interest-chip"><i class="fa-solid fa-solar-panel"></i> Renewable Energy & Solar Systems</span>
+                        </div>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="extra-card card-hover">
+                        <div class="card-icon-header">
+                            <i class="fa-solid fa-language"></i>
+                            <h3>Languages Spoken</h3>
+                        </div>
+                        <div class="languages-list">
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">Tamil</span>
+                                    <span class="lang-level">Native / Fluent</span>
+                                </div>
+                                <div class="lang-bar"><div class="lang-fill" style="width: 100%;"></div></div>
+                            </div>
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-level">Professional Proficiency</span>
+                                </div>
+                                <div class="lang-bar"><div class="lang-fill" style="width: 90%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards -->
+                    <div class="contact-info-cards">
+                        <div class="contact-card card-hover">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+919047297509" class="contact-value">+91 90472 97509</a>
+                            </div>
+                            <button class="copy-btn" data-copy="+919047297509" title="Copy Phone Number">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card card-hover">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:sidsidharth1234@gmail.com" class="contact-value">sidsidharth1234@gmail.com</a>
+                            </div>
+                            <button class="copy-btn" data-copy="sidsidharth1234@gmail.com" title="Copy Email">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card card-hover">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Coimbatore, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card card-hover">
+                            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://linkedin.com/in/sidharth-j-301b8238a" target="_blank" rel="noopener noreferrer" class="contact-value">sidharth-j-301b8238a</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card card-hover">
+                            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <a href="https://github.com/sidharth478" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/sidharth478</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper card-hover">
+                        <h3 class="form-title">Send a Direct Message</h3>
+                        <p class="form-subtitle">Feel free to reach out for engineering opportunities, technical discussions, or project collaborations.</p>
+
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Your Name</label>
+                                <div class="input-icon-wrapper">
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Your Email</label>
+                                <div class="input-icon-wrapper">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="email" id="form-email" name="email" required placeholder="john@example.com">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <div class="input-icon-wrapper">
+                                    <i class="fa-solid fa-tag"></i>
+                                    <input type="text" id="form-subject" name="subject" required placeholder="Engineering Inquiry / Job Opportunity">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <div class="input-icon-wrapper textarea-wrapper">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    <textarea id="form-message" name="message" rows="5" required placeholder="Hello Sidharth, I'd like to discuss..."></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-glow">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#hero" class="footer-logo">⚡ SIDHARTH.J</a>
+                <p>Final-Year Electrical & Electronics Engineering Student | Microcontroller Automation & PCB Design Specialist</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/sidharth478" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/sidharth-j-301b8238a" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:sidsidharth1234@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+919047297509" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sidharth J. All rights reserved. Built with HTML, CSS, JS.</p>
+        </div>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Resume Modal Viewer -->
+    <div class="modal-overlay" id="resume-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 class="modal-title"><i class="fa-solid fa-file-pdf"></i> Resume Preview - Sidharth J</h3>
+                <div class="modal-actions">
+                    <a href="assets/resume.pdf" target="_blank" class="btn btn-sm btn-outline">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in New Tab
+                    </a>
+                    <a href="assets/resume.pdf" download="Sidharth_J_Resume.pdf" class="btn btn-sm btn-primary">
+                        <i class="fa-solid fa-download"></i> Download
+                    </a>
+                    <button class="modal-close" id="close-modal-btn" aria-label="Close modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <iframe src="assets/resume.pdf" title="Sidharth J Resume PDF" class="resume-iframe"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
