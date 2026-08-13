@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Create mailto URL fallback link
             const mailtoSubject = encodeURIComponent(`Portfolio Inquiry: ${subject}`);
             const mailtoBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-            const mailtoUrl = `mailto:sidsidharth1234@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+            const mailtoUrl = `mailto:www.sidsidharth1234@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
 
             // Trigger mailto link
             window.location.href = mailtoUrl;
